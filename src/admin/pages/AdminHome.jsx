@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import AdminHEader from "../components/AdminHEader";
+import AdminHeader from "../components/AdminHeader";
 import AdminSideBar from "../components/AdminSideBar";
 import { toast } from "react-toastify";
 import { getAllBooks, getAllJobs, getAllUsers } from "../../services/AllApi";
@@ -65,7 +65,7 @@ const AdminHome = () => {
 
   return (
     <>
-      <AdminHEader />
+      <AdminHeader />
       <div className="grid grid-cols-[2fr_5fr]">
         <AdminSideBar />
         <div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import AdminHEader from "../components/AdminHEader";
+import AdminHeader from "../components/AdminHeader";
 import AdminSideBar from "../components/AdminSideBar";
 import { getAllBooks, getAllUsers } from "../../services/AllApi";
 
@@ -50,7 +50,7 @@ const AdminBooks = () => {
 
   return (
     <>
-      <AdminHEader />
+      <AdminHeader />
       <div className="grid grid-cols-[2fr_5fr]">
         <AdminSideBar />
         <div>

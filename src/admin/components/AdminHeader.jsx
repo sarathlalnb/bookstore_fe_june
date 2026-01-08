@@ -2,7 +2,7 @@ import { faSignOut } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-const AdminHEader = () => {
+const AdminHeader = () => {
   return (
     <>
       <div className="flex justify-between mx-15">
@@ -29,4 +29,4 @@ const AdminHEader = () => {
   );
 };
 
-export default AdminHEader;
+export default AdminHeader;
