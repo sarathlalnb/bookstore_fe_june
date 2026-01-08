@@ -1,0 +1,113 @@
+npm i font-awesome
+
+
+
+applicatin/json - text content
+
+multipart/formData - can contain text,files etc.. 
+
+
+        1. convert the contents into formData
+
+                1. create a new formData 
+
+
+
+
+
+Query parameters
+
+A "query in an API" refers to sending a request to an API to retrieve, filter, or manipulate data, often using parameters to specify what is needed. These queries can be performed via a URL
+
+
+
+-> React
+
+        1. API 
+                1. BaseURL
+                2. ALLAPI
+                3. CommonAPI/AxiosConfig :- configOBJ :- method,url,data
+
+        2. Routing :- thrid party packages :- react-router-dom
+
+        3. onChange , onClick 
+
+        4. State , props
+
+        
+
+-> Collections -> Documents -> fields
+
+
+
+
+->  fe - react js - \
+
+-> be - node + express 
+
+-> db - 
+
+
+
+
+
+React Context is a way to manage state globally.
+
+It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone.
+
+Context API in React is used to share data across the components without passing the props manually through every level. It allows to create global state of data providing global access to all the components.
+
+Context API is used to pass global variables anywhere in the code without the prop drilling. It helps when there is a need for sharing state between a lot of nested components.
+
+
+
+
+STRIPE 
+
+CORE PRINCIPLE
+
+        Frontend NEVER handles money. Backend ALWAYS Documents
+
+
+react/fe -> collects card details(via stripe)
+
+node/be -> Creates payment intent and Confirms payment
+
+stripe -> handles the payment gateway
+
+
+-> Step 1 
+
+        Create an account in stripe
+
+-> Publishable Key (Frontend key)
+
+        Used to identify which stripe account the request belongs to
+
+        initialize stripe elements ( UI )
+
+        Collect card details securely
+
+-> Secret Key (Backend Key)
+
+        initialize payments
+        Capture payments
+        issue refunds
+        etc..
+
+Payment Flow
+
+        1. load Stripe UI - Publishable
+        2. Enter card details - Publishable
+        3. initialize payment - Secret
+        4. confirm payment  - both 
+
+
+
+
+
+
+
+
+
+
